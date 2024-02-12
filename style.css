@@ -1,0 +1,49 @@
+body {
+  background-color: #7041f0;
+  margin: 0;
+}
+
+.main-div {
+  position: relative;
+  display: flex;
+  width: 75vw;
+  height: 25vw;
+  margin: 15em auto 0;
+}
+
+.poster {
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  transition: all 3s;
+}
+
+.poster:nth-child(1) {
+  left: 25%;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.poster:nth-child(2) {
+  opacity: 0.3;
+}
+
+.poster:nth-child(3) {
+  left: 50%;
+  opacity: 0.3;
+}
+
+.arrow {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17vh;
+  margin-left: 30vw;
+  width: 50px;
+  height: 50px;
+  z-index: 20;
+}
+
+.right-arrow {
+  margin-left: 67.3vw;
+}
